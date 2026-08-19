@@ -53,7 +53,7 @@ The full project report is available here:
 
 **[r6bot Bottom-Up Project Report](docs/r6bot_bottom_up_project_report.pdf)**
 
-It covers the conceptual background, debugging workflow, current limitations, next implementation plan, and individual team reflections.
+It covers the conceptual background, debugging workflow, current limitations, next implementation plan.
 
 ---
 
