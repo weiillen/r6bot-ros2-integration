@@ -39,8 +39,6 @@ I keep that distinction explicit because the useful part of this project was the
 ```text
 .
 ├── README.md
-├── ORIGINAL_FILE_MANIFEST.tsv
-├── PUBLICATION_NOTES.md
 └── docs/
     └── r6bot_bottom_up_project_report.pdf
 ```
