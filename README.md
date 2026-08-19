@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/31240167/README.md)
+[README.md](https://github.com/user-attachments/files/31240226/README.md)
 # r6bot ROS 2 Integration
 
 A team robotics project exploring the path from **physical assembly** to **ROS 2 control and simulation** for a 6-DOF r6bot arm.
@@ -35,3 +35,27 @@ The project reached a real intermediate state:
 
 I keep that distinction explicit because the useful part of this project was the integration and debugging process, not claiming a simulation result that had not yet been verified.
 
+## Repository contents
+
+```text
+.
+├── README.md
+├── ORIGINAL_FILE_MANIFEST.tsv
+├── PUBLICATION_NOTES.md
+└── docs/
+    └── r6bot_bottom_up_project_report.pdf
+```
+
+The uploaded project archive contained documentation rather than the full ROS workspace, so this repository preserves the available report and documents the work without inventing missing source code.
+
+## Documentation
+
+The full project report is available here:
+
+**[r6bot Bottom-Up Project Report](docs/r6bot_bottom_up_project_report.pdf)**
+
+It covers the conceptual background, debugging workflow, current limitations, next implementation plan, and individual team reflections.
+
+---
+
+**Main takeaway:** verify assumptions before changing a shared system - whether that system is a mechanical assembly or a ROS 2 integration stack.
