@@ -1,3 +1,0 @@
-status	original_path	repository_path	size_bytes	sha256	notes
-omitted	colearn/Final_[Closure Report]114-2_共學圈圈計畫成果報告格式.docx		6395247	a09756afab6d2067e4333ad9e553968f4c98a941895bd783a17d6e12b32faad0	Administrative closure report contains student IDs, email addresses, and team/private links; excluded from the public GitHub package.
-included	colearn/r6bot_bottom_up_project_report.docx.pdf	docs/r6bot_bottom_up_project_report.pdf	3013521	556e06fa8c0e71cdb21de3bdef1d58ff3dfe75ba2f48a08e0f6a99673a6c5f73	Renamed only; file bytes preserved exactly.
