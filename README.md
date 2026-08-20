@@ -1,10 +1,6 @@
 [README.md](https://github.com/user-attachments/files/31240226/README.md)
 # r6bot ROS 2 Integration
 
-A team robotics project exploring the path from **physical assembly** to **ROS 2 control and simulation** for a 6-DOF r6bot arm.
-
-The project adapted `ros2_control_demos` example 9 from the default **rrbot** model toward **r6bot**, using a bottom-up debugging approach: robot structure -> URDF/xacro -> joint names -> `ros2_control` -> controller configuration -> Gazebo.
-
 ## What I worked on
 
 My contribution focused on **physical assembly and ROS 2 compatibility support**.
@@ -46,26 +42,7 @@ The report is also reproduced below for direct viewing.
 ![Project report page 23](docs/report-pages/page-23.png)
 
 It covers the conceptual background, debugging workflow, current limitations, next implementation plan, and individual team reflections.
-## Technical scope
 
-`ROS 2 Jazzy` · `ros2_control` · `Gazebo` · `RViz` · `URDF / xacro` · `colcon` · robot kinematics
-
-The integration work highlighted several practical checks:
-
-- xacro macro interfaces must match the actual r6bot description rather than copied rrbot assumptions;
-- controller joint names must exactly match the generated robot description;
-- RViz success only validates the visualization/control path, not full physics simulation;
-- Gazebo additionally requires collision geometry, inertial properties, mass, plugins, and matching control interfaces.
-
-## Project status
-
-The project reached a real intermediate state:
-
-- **r6bot displayed and could be controlled in RViz**;
-- the **default example-9 Gazebo setup worked** as a baseline;
-- the **r6bot-specific Gazebo integration was not fully validated** and still required file-level cleanup and consistency checks.
-
-I keep that distinction explicit because the useful part of this project was the integration and debugging process, not claiming a simulation result that had not yet been verified.
 
 ## Repository contents
 
@@ -79,14 +56,3 @@ I keep that distinction explicit because the useful part of this project was the
 ```
 
 
-## Documentation
-
-The full project report is available here:
-
-**[r6bot Bottom-Up Project Report](docs/r6bot_bottom_up_project_report.pdf)**
-
-It covers the conceptual background, debugging workflow, current limitations, next implementation plan, and individual team reflections.
-
----
-
-**Main takeaway:** verify assumptions before changing a shared system - whether that system is a mechanical assembly or a ROS 2 integration stack.
