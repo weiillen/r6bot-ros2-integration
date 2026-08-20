@@ -78,7 +78,6 @@ I keep that distinction explicit because the useful part of this project was the
     └── r6bot_bottom_up_project_report.pdf
 ```
 
-The uploaded project archive contained documentation rather than the full ROS workspace, so this repository preserves the available report and documents the work without inventing missing source code.
 
 ## Documentation
 
